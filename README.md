@@ -15,7 +15,9 @@ way, which makes it easy to replace parts of the compression algorithm, e.g. ind
 In order to compile FESCO you need to run make. The makefile is provided in the /build directory of FRESCO. An example session of compiling and linking FRESCO is as follows:
 
 cd /build
+
 make clean
+
 make
 
 The second command will remove previous intermediate files (if existing). The third command will create the FRESCO executable in the FRESCO main directory. This executable is standalone. If you want to you FRESCO in other directories than the FRESCO root directory, then you need to set the PATH envorinment entryaccordingly (please refer to the manual of your shell/linux system).
