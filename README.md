@@ -22,6 +22,18 @@ make
 
 The second command will remove previous intermediate files (if existing). The third command will create the FRESCO executable in the FRESCO main directory. This executable is standalone. If you want to you FRESCO in other directories than the FRESCO root directory, then you need to set the PATH envorinment entryaccordingly (please refer to the manual of your shell/linux system).
 
+You need the following external libraries in order to compile FRESCO:
+
+boost_system (1.51 or later)
+
+boost_filesystem
+
+boost_iostreams
+
+boost_thread-mt
+
+libz
+
 3) How to configure FRESCO
 
 All configuration parameters are stored in a configuration file, whose path is passed as a parameter to the FESCO executable. The configuration file adopts the structure of ini-files from windows, i.e. each line is of the shape "key=value". The order of lines is not important.
