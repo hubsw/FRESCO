@@ -1,0 +1,4 @@
+KMERLENGTH=13
+COMPRESSORTYPE=SimpleCompressor_LO_MD
+SERIALIZERTYPE=CompactSerializer
+

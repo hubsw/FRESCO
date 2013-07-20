@@ -1,0 +1,4 @@
+/bio/ToyFRESCO/1.txt
+/bio/ToyFRESCO/2.txt
+/bio/ToyFRESCO/3.txt
+/bio/ToyFRESCO/4.txt
