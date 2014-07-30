@@ -258,8 +258,8 @@ class SystemTools
             //{
             //    gzwrite(fi,&c,1);
             //}
-            gzwrite(fi,s,length);
-            gzclose(fi);
+            gzwrite(*fi,s,length);
+            gzclose(*fi);
         }
 
         static string set2string(set<string> ss)
