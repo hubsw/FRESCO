@@ -246,7 +246,7 @@ public:
                 reproduceSumBytes(sumbytes, bytecount, l,sumlen);
 
 
-                pos=lastsavedrefpos;
+                pos=0;
                 length=sumlen-1;
             }else if ((b>>7)==0)
             {
